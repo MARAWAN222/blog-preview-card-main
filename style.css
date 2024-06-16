@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+   font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+body {
+    background-color:var(--Yellow);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conrainer{
+    width: 350px;
+    background-color: var(--White);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    gap: 15px;
+    border: 1px solid;
+    box-shadow: 8px 8px black;
+}
+
+
+.conrainer .imgbox img{
+    width: 100%;
+    border-radius:10PX ;
+}
+
+.conrainer .textbox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+ .textbox span{
+background: var(--Yellow);
+width: fit-content;
+padding: 4px 12px;
+border-radius: 4px;
+font-weight: 800;
+font-size: 14px;
+ }
+
+.textbox p{
+    font-size: 15px;
+    
+ }
+
+ .textbox .start {
+    font-weight: 500;
+ }
+
+
+ .textbox .gray{
+    color: var(--Grey);
+    font-weight: 400;
+ }
+.textbox .end{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+font-weight: 800;
+font-size: 14px;
+margin-right :6px 0 ;
+}
+
+.textbox .end img{
+height: 26px;
+margin-right: 10px;
+}
+.attribution{
+    margin-top: 40px;
+}
